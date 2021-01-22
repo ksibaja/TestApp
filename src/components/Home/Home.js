@@ -3,12 +3,16 @@ import React from 'react';
 import styles from './Home.module.css';
 import Button from 'react-bootstrap/Button';
 
-const Home = () => (
-  <div className={styles.Home}>
-    Home Component
-    <Button variant="primary">Primary</Button>{' '}
-  </div>
-);
+class Home extends React.Component {
+  render() {
+    return (
+    <div className={styles.Home}>
+      Home Component
+      <Button variant="primary">Primary</Button>{' '}
+    </div>
+    )
+  }
+}
 
 Home.propTypes = {};
 
