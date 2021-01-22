@@ -12,7 +12,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 ReactDOM.render(
   <React.StrictMode>    
     <Topnavbar /> {/** <Home />  <App /> */}
-    <Home />
+    <Home title="Welcome!!!"/>
   </React.StrictMode>,
   document.getElementById('root')
 );
