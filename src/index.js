@@ -1,16 +1,20 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import Main from './pages/Main/Main';
+import App from './App';
 import * as serviceWorker from './serviceWorker';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 ReactDOM.render(
-  <React.StrictMode>    
-    <Main />    
-  </React.StrictMode>,
+  <App />,
   document.getElementById('root')
 );
+
+/**
+ * <React.StrictMode>   
+ *    <App />   
+ * </React.StrictMode>
+ */
 
 
 // If you want your app to work offline and load faster, you can change

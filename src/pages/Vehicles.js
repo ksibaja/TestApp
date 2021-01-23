@@ -1,8 +1,7 @@
 import React from 'react';
-import Home from '../../components/Home/Home';
-import Topnavbar from '../../components/Topnavbar/Topnavbar';
+import CardCmpt from '../components/Card/Card';
 
-class Main extends React.Component {
+class Vehicles extends React.Component {
     constructor(props) {
         super(props)
         this.state = {
@@ -28,15 +27,19 @@ class Main extends React.Component {
     render() {
         return (
             <div>
-                <Topnavbar />
-                <Home data={this.state.data} />
+                <br></br>
+                { this.state.data.map((item) => {
+                    return (
+                        <CardCmpt title={item.title} msg={item.description} image={item.img} />
+                    )
+                })}
             </div>
         )
     }
 }
 
-Main.propTypes = {};
+Vehicles.propTypes = {};
 
-Main.defaultProps = {};
+Vehicles.defaultProps = {};
 
-export default Main;
+export default Vehicles;
