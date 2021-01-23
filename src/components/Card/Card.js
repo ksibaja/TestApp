@@ -10,7 +10,7 @@ class CardCmpt extends React.Component {
     return (
       <div className="Card">
         <Card className="card-size" >
-          <Card.Body>
+          <Card.Body className="card-style">
             <h1>{title}</h1>
             <p className="p">{msg}</p>
             <img src={image} alt="hello" height="200"></img>

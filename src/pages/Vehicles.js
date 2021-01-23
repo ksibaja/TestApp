@@ -28,11 +28,16 @@ class Vehicles extends React.Component {
         return (
             <div>
                 <br></br>
-                { this.state.data.map((item) => {
-                    return (
-                        <CardCmpt title={item.title} msg={item.description} image={item.img} />
-                    )
-                })}
+                <div className="row">
+                    {this.state.data.map((item) => {
+                        return (
+                            <div className="col-md-4" style={{ minWidth: '25rem', margin: 'auto' }}>
+                                <CardCmpt title={item.title} msg={item.description} image={item.img} />
+                            </div>
+                        )
+                    })}
+                </div>
+
             </div>
         )
     }

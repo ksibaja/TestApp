@@ -3,7 +3,7 @@ import './NotFound.css';
 
 function NotFound() {
     return (
-        <div className="App">
+        <div className="App" style={{ color: 'yellowgreen' }}>
             <h1>Error, page not found...</h1>
             <p style={{ fontSize: '16px' }}>Oops, try another link :c</p>
             <div>

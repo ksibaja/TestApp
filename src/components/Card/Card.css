@@ -11,8 +11,15 @@
     margin: auto;
 }
 
+.card-style {
+  color: yellowgreen;
+}
+
 @media (max-width: 538px) {
   .card-size {
     max-width: 23rem;
   }
 }
+
+
+
