@@ -9,7 +9,7 @@ class CardCmpt extends React.Component {
 
     return (
       <div className="Card">
-        <Card style={{ maxWidth: '30rem', margin: 'auto' }}>
+        <Card className="card-size" >
           <Card.Body>
             <h1>{title}</h1>
             <p className="p">{msg}</p>
