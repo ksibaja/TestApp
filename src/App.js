@@ -12,6 +12,7 @@ function App() {
     <Router>
       <Route path='/:page' component={Topnavbar} />
       <Route exact path='/' component={Topnavbar} />
+      
       <Switch>       
         <Route exact path='/' component={Main} />
         <Route exact path='/main' component={Main} />
