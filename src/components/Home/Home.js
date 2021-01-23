@@ -4,7 +4,7 @@ import './Home.css';
 
 function Home() {
   return (
-    <div className="Home" style={{ color: 'yellowgreen' }}>
+    <div style={{ color: 'yellowgreen' }}>
       <h1>Welcome!!!</h1>
       <p className="p">This is a basic app...</p>
     </div>

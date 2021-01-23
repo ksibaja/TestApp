@@ -1,6 +1,6 @@
 .img-size {
-    margin: auto;
-    max-width: 30rem;
+  margin: auto;
+  max-width: 30rem;
 }
 
 @media (max-width: 630px) {
