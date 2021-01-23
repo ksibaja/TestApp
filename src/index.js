@@ -1,18 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-// import App from './App';
-import Home from './components/Home/Home';
-import Topnavbar from './components/Topnavbar/Topnavbar';
+import Main from './pages/Main/Main';
 import * as serviceWorker from './serviceWorker';
-
-// Importing the Bootstrap CSS
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 ReactDOM.render(
   <React.StrictMode>    
-    <Topnavbar /> {/** <Home />  <App /> */}
-    <Home title="Welcome!!!"/>
+    <Main />    
   </React.StrictMode>,
   document.getElementById('root')
 );

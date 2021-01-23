@@ -1,13 +1,13 @@
 import React from 'react';
 // import PropTypes from 'prop-types';
-import styles from './Topnavbar.module.css';
+import './Topnavbar.css';
 import { Navbar, Nav, NavDropdown } from 'react-bootstrap';
 
 class Topnavbar extends React.Component {
   render() {
     return (
       <div>    {/*{styles.Topnavbar}*/}
-        <Navbar className={styles.Topnavbar} collapseOnSelect expand="lg" variant="dark">
+        <Navbar className="Topnavbar" collapseOnSelect expand="lg" variant="dark">
           <Navbar.Brand href="#home">Home</Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
