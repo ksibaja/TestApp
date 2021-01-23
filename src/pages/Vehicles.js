@@ -38,8 +38,4 @@ class Vehicles extends React.Component {
     }
 }
 
-Vehicles.propTypes = {};
-
-Vehicles.defaultProps = {};
-
 export default Vehicles;

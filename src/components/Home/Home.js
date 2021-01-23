@@ -5,8 +5,8 @@ import './Home.css';
 function Home() {
   return (
     <div className="Home">
-      <h1>Welcome!!!</h1><hr></hr>
-      <p>This is a basic app...</p>
+      <h1>Welcome!!!</h1>
+      <p className="p">This is a basic app...</p>
     </div>
   )
 }
