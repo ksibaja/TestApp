@@ -42,7 +42,7 @@ class Vehicles extends React.Component {
               >
                 <CardCmpt
                   title={item.title}
-                  msg={item.description}
+                  description={item.description}
                   image={item.img}
                 />
               </div>
