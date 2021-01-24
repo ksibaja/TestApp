@@ -20,10 +20,10 @@ class Vehicles extends React.Component {
       },
       {
         id: 3,
-        title: "Airplane",
-        description: "This is an airplane...",
+        title: "Plane",
+        description: "This is an plane...",
         img:
-          "https://thumbs.dreamstime.com/b/avi%C3%B3n-en-el-cielo-ilustraci%C3%B3n-de-l%C3%A1piz-dibujada-mano-sobre-fondo-blanco-163694663.jpg",
+          "https://lh3.googleusercontent.com/proxy/ZvmicXrYmth8z1rrSOug2LlD_UQB1NlrVzWwUzfOxvKmCBPx6XZGnAnLPdDqPIEun8dkIKaDbfEjV3N55lO-18qI0d5ksdwaGN76XnhfbTk",
       },
     ],
   };

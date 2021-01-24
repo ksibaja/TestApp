@@ -9,9 +9,17 @@
 @media (max-width: 630px) {
   .img-size {
     margin: auto;
-    max-width: 23rem;
+    max-width: 20rem;
   }
 }
+
+@media (max-width: 350px) {
+  .img-size {
+    margin: auto;
+    max-width: 15rem;
+  }
+}
+
 
 /*
     Vehicles Page styles

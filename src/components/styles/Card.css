@@ -8,11 +8,32 @@
 
 .card-style {
   color: gray;
+  border-top-style: outset;
+  border-bottom-style: inset;
+  border-right-style: inset;
+  border-left-style: outset;
+
+}
+
+img {
+  height: 200px;
 }
 
 @media (max-width: 1200px) and (min-width: 767px) {
   .Card {
     min-width: 348px;
     min-height: 321px;
+  }
+}
+
+@media (max-width: 415px) {
+  img {
+    height: 140px;
+  }
+}
+
+@media (max-width: 315px) {
+  img {
+    height: 100px;
   }
 }

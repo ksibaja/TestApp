@@ -3,12 +3,12 @@ import './styles/Card.css';
 import Card from 'react-bootstrap/Card';
 
 const CardCmpt = ({ title, msg, image }) => (
-  <div className="Card">
+  <div className="Card" >
     <Card>
       <Card.Body className="card-style">
         <h3>{title}</h3>
         <p className="p">{msg}</p>
-        <img src={image} alt="hello" height="200"></img>
+        <img src={image} alt="hello"></img>
       </Card.Body>
     </Card>
     <br></br>
