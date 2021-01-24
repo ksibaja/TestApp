@@ -1,8 +1,8 @@
 import React from "react";
-import "./NotFound.css";
+import "./pages.css";
 
 const NotFound = () => (
-  <div className="App" style={{ color: "yellowgreen" }}>
+  <div className="container text-center" style={{ color: "yellowgreen" }}>
     <h1>Error, page not found...</h1>
     <p style={{ fontSize: "16px" }}>Oops, try another link :c</p>
     <div>

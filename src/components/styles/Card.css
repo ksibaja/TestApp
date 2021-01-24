@@ -6,20 +6,13 @@
   font-size: 16px;
 }
 
-.card-size {
-    max-width: 30rem;
-    margin: auto;
-}
-
 .card-style {
-  color: yellowgreen;
+  color: gray;
 }
 
-@media (max-width: 538px) {
-  .card-size {
-    max-width: 23rem;
+@media (max-width: 1200px) and (min-width: 767px) {
+  .Card {
+    min-width: 348px;
+    min-height: 321px;
   }
 }
-
-
-

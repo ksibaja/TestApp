@@ -1,5 +1,6 @@
 import React from "react";
 import CardCmpt from "../components/Card";
+import "./pages.css";
 
 class Vehicles extends React.Component {
   state = {
@@ -26,18 +27,18 @@ class Vehicles extends React.Component {
       },
     ],
   };
-  
+
   render() {
     return (
-      <div>
-        <br></br>
+      <div className="container">
+        <h1 className="text-center" style={{ color: "yellowgreen" }}>Vehicles view</h1><br />
+        <br />
         <div className="row">
           {this.state.data.map((item) => {
             return (
               <div
                 key={item.id}
-                className="col-md-4"
-                style={{ minWidth: "25rem", margin: "auto" }}
+                className="col-md-4 card-size"
               >
                 <CardCmpt
                   title={item.title}
@@ -48,6 +49,7 @@ class Vehicles extends React.Component {
             );
           })}
         </div>
+
       </div>
     );
   }

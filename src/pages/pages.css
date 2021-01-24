@@ -1,0 +1,28 @@
+/*
+    NotFound Page styles
+*/
+.img-size {
+  margin: auto;
+  max-width: 30rem;
+}
+
+@media (max-width: 630px) {
+  .img-size {
+    margin: auto;
+    max-width: 23rem;
+  }
+}
+
+/*
+    Vehicles Page styles
+*/
+.card-size {
+  margin: auto;
+}
+
+@media (max-width: 1200px) and (min-width: 767px) {
+  .card-size {
+    min-width: 348px;
+    min-height: 321px;
+  }
+}

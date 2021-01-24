@@ -4,9 +4,9 @@ import Card from 'react-bootstrap/Card';
 
 const CardCmpt = ({ title, msg, image }) => (
   <div className="Card">
-    <Card className="card-size" >
+    <Card>
       <Card.Body className="card-style">
-        <h1>{title}</h1>
+        <h3>{title}</h3>
         <p className="p">{msg}</p>
         <img src={image} alt="hello" height="200"></img>
       </Card.Body>
