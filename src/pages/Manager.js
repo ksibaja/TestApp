@@ -35,7 +35,7 @@ class Manager extends React.Component {
               onChange={this.handleChange}
               form={this.state.form}
             />
-          </div>
+          </div><br/>
         </div>
       </div>
     );
