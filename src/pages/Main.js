@@ -1,5 +1,6 @@
 import React from "react";
 import Home from "../components/Home";
+import "./pages.css";
 
 class Main extends React.Component {
 
@@ -23,38 +24,28 @@ class Main extends React.Component {
 
   render() {
     return (
-      <div className="container">
-        <div className="row">
-          <div
-            className="col-md-12 text-center"
-            style={{
-              position: "absolute",
-              left: "50%",
-              top: "50%",
-              transform: "translate(-50%, -50%)",
-            }}
-          >
-            <div className="col-md-3" style={{ margin: 'auto' }}>
-              <div className="card">
-                <div className="card-body">
-                  <Home /><hr />
-                  <div className="form-group">
-                    <label>Background color</label>
-                    <input
-                      type="text"
-                      name="color"
-                      className="form-control"
-                      onChange={this.handleChange}
-                    ></input>
-                  </div>
-                  <button className="btn btn-primary btn-block" onClick={this.handleClickColor}>Save</button>
-                </div>
-              </div>
+      <div className="container text-center col-md-3 main-size" style={{
+        position: "absolute",
+        left: "50%",
+        top: "50%",
+        transform: "translate(-50%, -50%)",
+      }}>
+        <div className="card" style={{ background: 'black' }}>
+          <div className="card-body" >
+            <Home /><hr />
+            <div className="form-group">
+              <label style={{ color: 'white' }}>Background color</label>
+              <input
+                type="text"
+                name="color"
+                className="form-control"
+                onChange={this.handleChange}
+              ></input>
             </div>
+            <button className="btn btn-primary btn-block" onClick={this.handleClickColor}>Save</button>
           </div>
         </div>
       </div>
-
     );
   }
 }

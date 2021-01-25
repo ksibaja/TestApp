@@ -3,7 +3,17 @@
 */
 .img-size {
   margin: auto;
-  max-width: 30rem;
+  max-width: 20rem;
+}
+
+.not-found-size {
+  text-align: center;
+}
+
+@media (max-width: 1200px) and (min-width: 767px) {
+  .not-found-size {
+    min-width: 500px;
+  }
 }
 
 @media (max-width: 630px) {
@@ -13,10 +23,24 @@
   }
 }
 
-@media (max-width: 350px) {
+@media (max-width: 390px) {
   .img-size {
     margin: auto;
     max-width: 15rem;
+  }
+}
+
+
+/*
+    Main Page styles
+*/
+.main-size {
+  text-align: center;
+}
+
+@media (max-width: 1200px) and (min-width: 767px) {
+  .main-size {
+    min-width: 320px;
   }
 }
 

@@ -25,18 +25,20 @@ class Manager extends React.Component {
   render() {
     return (
       <div className="container">
-        <h1 className="text-center" style={{ color: "yellowgreen" }}>Vehicles management</h1><br />
+        <div className="card col-md-12" style={{ margin: 'auto' }}>
+          <h1 className="text-center" style={{ color: "yellowgreen" }}>Vehicles management</h1>
+        </div><br />
         <div className="row">
           <div className="col-sm">
             <CardCmpt {...this.state.form} />
           </div>
-          <div className="col-sm">
+          <div className="col-sm" style={{ padding: 'unset' }}>
             <VehicleForm
               onChange={this.handleChange}
               form={this.state.form}
             />
-          </div><br/>
-        </div>
+          </div>
+        </div><br/><br/>
       </div>
     );
   }
