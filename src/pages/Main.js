@@ -34,20 +34,21 @@ class Main extends React.Component {
               transform: "translate(-50%, -50%)",
             }}
           >
-            <Home />
-            <button className="btn btn-secondary" onClick={this.handleClick}>
-              Click here o.o
-            </button><hr />
             <div className="col-md-3" style={{ margin: 'auto' }}>
               <div className="card">
-                <label>Background color</label>
-                <input
-                  type="text"
-                  name="color"
-                  className="form-control"
-                  onChange={this.handleChange}
-                ></input>
-                <button className="btn btn-primary" onClick={this.handleClickColor}>Save</button>
+                <div className="card-body">
+                  <Home /><hr />
+                  <div className="form-group">
+                    <label>Background color</label>
+                    <input
+                      type="text"
+                      name="color"
+                      className="form-control"
+                      onChange={this.handleChange}
+                    ></input>
+                  </div>
+                  <button className="btn btn-primary btn-block" onClick={this.handleClickColor}>Save</button>
+                </div>
               </div>
             </div>
           </div>
