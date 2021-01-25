@@ -15,7 +15,7 @@
 
 }
 
-img {
+.img {
   height: 200px;
 }
 
@@ -27,13 +27,13 @@ img {
 }
 
 @media (max-width: 415px) {
-  img {
+  .img {
     height: 140px;
   }
 }
 
 @media (max-width: 315px) {
-  img {
+  .img {
     height: 100px;
   }
 }

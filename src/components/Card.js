@@ -8,7 +8,7 @@ const CardCmpt = ({ title, description, image }) => (
       <Card.Body className="card-style">
         <h3>{title}</h3>
         <p className="p">{description}</p>
-        <img src={image} alt="hello"></img>
+        <img className="img" src={image} alt="hello"></img>
       </Card.Body>
     </Card>
     <br></br>

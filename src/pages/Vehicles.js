@@ -23,7 +23,8 @@ class Vehicles extends React.Component {
         title: "Plane",
         description: "This is an plane...",
         img:
-          "https://lh3.googleusercontent.com/proxy/ZvmicXrYmth8z1rrSOug2LlD_UQB1NlrVzWwUzfOxvKmCBPx6XZGnAnLPdDqPIEun8dkIKaDbfEjV3N55lO-18qI0d5ksdwaGN76XnhfbTk",
+          "https://lh3.googleusercontent.com/proxy/ZvmicXrYmth8z1rrSOug2LlD_UQB1NlrVzWwUzfOxvKmCBPx6XZGnAnLPdDqPIEun8dkIKaDbfEjV3N55lO-18qI0d5ksdwaGN76XnhfbTk", 
+          // https://thumbs.dreamstime.com/b/fighter-mig-29-27754708.jpg 
       },
     ],
   };
