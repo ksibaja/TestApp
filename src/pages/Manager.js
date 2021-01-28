@@ -1,6 +1,6 @@
 import React from "react";
 import VehicleForm from "../components/VehicleForm";
-import CardCmpt from "../components/Card";
+import VehicleCard from "../components/VehicleCard";
 
 class Manager extends React.Component {
 
@@ -30,7 +30,7 @@ class Manager extends React.Component {
         </div><br />
         <div className="row">
           <div className="col-sm">
-            <CardCmpt {...this.state.form} />
+            <VehicleCard {...this.state.form} />
           </div>
           <div className="col-sm" style={{ padding: 'unset' }}>
             <VehicleForm

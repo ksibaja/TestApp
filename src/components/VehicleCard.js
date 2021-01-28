@@ -2,7 +2,7 @@ import React from 'react';
 import './styles/Card.css';
 import Card from 'react-bootstrap/Card';
 
-const CardCmpt = ({ title, description, image }) => (
+const VehicleCard = ({ title, description, image }) => (
   <div className="Card" >
     <Card>
       <Card.Body className="card-style">
@@ -15,4 +15,4 @@ const CardCmpt = ({ title, description, image }) => (
   </div>
 )
 
-export default CardCmpt;
+export default VehicleCard;

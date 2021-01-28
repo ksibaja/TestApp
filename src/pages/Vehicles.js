@@ -1,5 +1,5 @@
 import React from "react";
-import CardCmpt from "../components/Card";
+import VehicleCard from "../components/VehicleCard";
 import "./pages.css";
 
 class Vehicles extends React.Component {
@@ -23,8 +23,9 @@ class Vehicles extends React.Component {
         title: "Plane",
         description: "This is an plane...",
         img:
-          "https://lh3.googleusercontent.com/proxy/ZvmicXrYmth8z1rrSOug2LlD_UQB1NlrVzWwUzfOxvKmCBPx6XZGnAnLPdDqPIEun8dkIKaDbfEjV3N55lO-18qI0d5ksdwaGN76XnhfbTk",
-        // https://thumbs.dreamstime.com/b/fighter-mig-29-27754708.jpg 
+          "https://thumbs.dreamstime.com/b/fighter-mig-29-27754708.jpg"
+          // "https://lh3.googleusercontent.com/proxy/ZvmicXrYmth8z1rrSOug2LlD_UQB1NlrVzWwUzfOxvKmCBPx6XZGnAnLPdDqPIEun8dkIKaDbfEjV3N55lO-18qI0d5ksdwaGN76XnhfbTk",
+          // https://thumbs.dreamstime.com/b/fighter-mig-29-27754708.jpg 
       },
     ],
   };
@@ -43,7 +44,7 @@ class Vehicles extends React.Component {
                 key={item.id}
                 className="col-md-4 card-size"
               >
-                <CardCmpt
+                <VehicleCard
                   title={item.title}
                   description={item.description}
                   image={item.img}
