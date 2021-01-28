@@ -9,8 +9,7 @@ import NotFound from './pages/NotFound';
 
 const App = () => (
   <Router>
-    <Route path='/:page' component={Topnavbar} />
-    <Route exact path='/' component={Topnavbar} />
+    <Topnavbar />
 
     <Switch>
       <Route exact path='/' component={Main} />

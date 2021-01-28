@@ -1,5 +1,5 @@
 import React from 'react';
-import './styles/Card.css';
+import './styles/VehicleCard.css';
 import Card from 'react-bootstrap/Card';
 
 const VehicleCard = ({ title, description, image }) => (

@@ -1,4 +1,5 @@
 import React from "react";
+import axios from 'axios';
 import VehicleForm from "../components/VehicleForm";
 import VehicleCard from "../components/VehicleCard";
 
@@ -6,10 +7,15 @@ class Manager extends React.Component {
 
   state = {
     form: {
-      title: 'Hello',
+      title: 'Test title',
       description: 'Test description',
-      image: 'https://i.pinimg.com/originals/a7/fc/aa/a7fcaa43650adc892c401956a08dc32a.jpg'
-    }
+      image: 'https://kepriprov.go.id/assets/img/berita/No_Foto_2.jpg'
+    },
+  }
+
+  async componentDidMount() {
+    const res = await axios.get('http://localhost:4000/api/vehicles');
+    this.setState({vehicles: res.data});
   }
 
   handleChange = (e) => {
@@ -20,7 +26,6 @@ class Manager extends React.Component {
       }
     })
   };
-
 
   render() {
     return (

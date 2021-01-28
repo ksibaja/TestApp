@@ -16,12 +16,17 @@
 
 .img {
   height: 200px;
+  max-width: 300px;
 }
 
 @media (max-width: 1200px) and (min-width: 767px) {
   .Card {
-    min-width: 348px;
-    min-height: 321px;
+    min-width: 320px;
+  }
+  
+  .img {
+    max-height: 150px;
+    max-width: 300px;
   }
 }
 
