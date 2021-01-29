@@ -2,13 +2,13 @@ import React from "react";
 import "./pages.css";
 
 const NotFound = () => (
-  <div className="container text-center col-md-5 not-found-size" style={{
-    color: "yellowgreen", position: "absolute",
-    left: "50%",
-    top: "50%",
-    transform: "translate(-50%, -50%)"
-  }}>
-    <div className="card" style={{ background: 'black' }}>
+  <div
+    className="container p-4 text-center col-md-5 not-found-size"
+    style={{
+      color: "yellowgreen",
+    }}
+  >
+    <div className="card" style={{ background: "black" }}>
       <div className="card-body">
         <h1>Error, page not found...</h1>
         <p style={{ fontSize: "16px" }}>Oops, try another link :c</p>
@@ -22,6 +22,6 @@ const NotFound = () => (
       </div>
     </div>
   </div>
-)
+);
 
 export default NotFound;

@@ -24,7 +24,7 @@ class Main extends React.Component {
 
   render() {
     return (
-      <div className="container text-center col-md-3 main-size" style={{
+      <div className="container p-4 text-center col-md-3 main-size" style={{
         position: "absolute",
         left: "50%",
         top: "50%",
